@@ -55,3 +55,36 @@ nav a,
     display: flex;
     gap: 15px;
 }
+
+.hero {
+    background: linear-gradient(135deg, #101b35, #1746a2);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
+.hero-buttons a {
+    display: inline-block;
+    background: #ffffff;
+    color: #1746a2;
+    padding: 14px 25px;
+    margin: 8px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
