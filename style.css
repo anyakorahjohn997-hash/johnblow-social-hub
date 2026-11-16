@@ -215,3 +215,52 @@ nav a,
         grid-template-columns: 1fr;
     }
 }
+
+.why-choose-us {
+    padding: 60px 20px;
+    text-align: center;
+    background: #ffffff;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.why-choose-us h2 {
+    font-size: 30px;
+    color: #101b35;
+    margin-bottom: 12px;
+}
+
+.why-choose-us > p {
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.benefits-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.benefit-card {
+    background: #f4f6fb;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #e0e5ef;
+}
+
+.benefit-card h3 {
+    color: #1746a2;
+    margin-bottom: 15px;
+}
+
+.benefit-card p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .benefits-container {
+        grid-template-columns: 1fr;
+    }
+}
+
