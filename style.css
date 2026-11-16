@@ -264,3 +264,34 @@ nav a,
     }
 }
 
+.faq {
+    padding: 60px 20px;
+    background: #eef2fb;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #101b35;
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    background: white;
+    padding: 22px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #dce3f0;
+}
+
+.faq-item h3 {
+    color: #1746a2;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    color: #555555;
+    line-height: 1.6;
+}
