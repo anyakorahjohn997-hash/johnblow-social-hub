@@ -167,3 +167,51 @@ nav a,
         grid-template-columns: 1fr;
     }
 }
+
+.how-it-works {
+    padding: 60px 20px;
+    text-align: center;
+    background: #eef2fb;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.how-it-works h2 {
+    font-size: 30px;
+    color: #101b35;
+    margin-bottom: 12px;
+}
+
+.how-it-works > p {
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+.steps-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.step-card {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 1px solid #dce3f0;
+}
+
+.step-card h3 {
+    color: #1746a2;
+    margin-bottom: 15px;
+}
+
+.step-card p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .steps-container {
+        grid-template-columns: 1fr;
+    }
+}
